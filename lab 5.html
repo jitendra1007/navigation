@@ -1,0 +1,101 @@
+<html>
+<head>
+<title>simple form</title>
+</head>
+<style>
+body
+{background-color:rgb(51, 133, 255);
+background-image: url('C:/Users/simran lekhwani/Downloads/landscape.jpg');
+background-size:100%;
+font-family:engravers mt;
+font-size:20px;
+}
+h3
+ {
+
+border-style: inset;
+
+border-color: blue;
+
+border-width: 3px;
+
+border-radius: 10px;
+
+}
+.container
+{
+width:600px;
+border-top:4px solid rgb(153, 255, 204);
+border-bottom:4px solid rgb(153, 255, 204);
+  padding: 10px;
+  margin: 20px;
+background:transparent;
+
+}
+</style>
+</head>
+<body>
+<p id="demo"></p>
+<h3><center>Student Details</center></h3>
+<div class="container">
+<form method="post">
+  
+  <label for="fullname">Full name:</label>
+  <input type="text" id="fullname" name="fullname"><br>
+<br>
+  <label for="rno">Roll no:  </label>
+  <input type="text"id="rno"  name="rno" ><br>
+<br>
+  <label for="pno">phone no: </label>
+  <input type="text"id="pno" name="pno"> <br>
+<br>  
+  <label for="el">Email: </label>
+  <input type="text"id="el" name="el"><br>
+  <p> country </p>
+  <input type="radio" id="ind" name="country" value="India">
+  <label for="ind">India</label>
+<br>
+<br>
+  <label for="state">Choose your state:</label><br><br>
+  <select id="state" name="state"><br><br>
+  <option value="Madhya pradesh">Madhya pradesh</option>
+  <option value="Rajasthan">Rajasthan</option>
+  <option value="Chattisgarh">Chattisgarh</option>
+  <option value="Bihar">Bihar</option>
+  <option value="Maharahtra">Maharahtra</option>
+  <option value="Kerela">Kerela</option>
+  <option value="Tamil Nadu">Tamil Nadu</option>
+  <option value="Assam">Assam</option>
+  <option value="Andhra Pradesh">Andhra Pradesh</option>
+  <option value="Arunachal Pradesh ">Arunachal Pradesh</option>
+  <option value="Goa">Goa</option>
+  <option value="Gujarat">Gujarat</option>
+  <option value="Haryana">Haryana</option>
+  <option value="Himachal Pradesh">Himachal Pradesh</option>
+  <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+  <option value="Jharkhand">Jharkhand</option>
+  <option value="Manipur">Manipur</option>
+  <option value="Meghalaya">Meghalaya</option>
+  <option value="Mizoram">Mizoram</option>
+  <option value="Odisha">Odisha</option>
+  <option value="Andhra Pradesh">Andhra pradesh</option>
+  <option value="Punjab">Punjab</option>
+  <option value="Sikkim">Sikkim</option>
+  <option value="Telengana">Telengana</option>
+  <option value="Tripura">Tripura</option>
+  <option value="Uttarakhand">Uttarakhand</option> 
+  <option value="Uttarpradesh">Uttarpradesh</option>
+
+</select>
+<br><br>
+<button type="button" onclick="submission()">submit</button>
+</div>  
+
+</form>
+<script>
+function submission()
+{window.alert("your form is submitted");
+}
+</script>
+</body>
+</html>
